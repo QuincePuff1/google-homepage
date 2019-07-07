@@ -6,7 +6,11 @@ body {
 }
 
 .icon {
-    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.icon:hover {
+    color: rgba(0,0,0,.87);
 }
 
 .user-photo:before {
