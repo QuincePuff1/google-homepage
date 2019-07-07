@@ -1,72 +1,81 @@
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<div class="wrapper">
 
-    <header>
-        <nav class="m-navbar  u-text-align--right">
-            <ul class="o-list  o-list--inline  navbar__list">
-                <li class="navbar__item">
-                    <a class="navbar__link" href="/">Gmail</a>
-                </li>
-                <li class="navbar__item">
-                    <a class="navbar__link" href="/">Imagini</a>
-                </li>
-                <li class="navbar__item">
-                    <a class="navbar__link" title="Aplicatii Google" href="/">Aplicatii Google</a>
-                </li>
-                <li class="navbar__item">
-                    <a class="navbar__link" title="Sign Out User" href="/">Sign Out</a>
-                </li>
-            </ul>
-        </nav>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b271689755.js"></script>
+</head>
 
-        <div class="logo__holder">
-            <img class="logo" alt="Google" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+<body>
+    <div class="wrapper">
+
+        <header>
+            <nav class="m-navbar  u-text-align--right">
+                <ul class="o-list  o-list--inline  navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="/">Gmail</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="/">Imagini</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" title="Aplicatii Google" href="/">
+                            <i class="icon  fas fa-grip-horizontal">&nbsp;</i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link  user-login" title="Sign Out User" href="/"><span class="user-photo">&nbsp;</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="logo__holder">
+                <img class="logo" alt="Google" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+            </div>
+        </header>
+
+        
+        <div class="searchform__holder  u-text-align--center">
+            <div class="searchform__wrapper">
+                <input id="searchform__input" class="searchform__input" title="Cautati" value="" type="text" maxlength="2048" aria-label="Cautati" />
+            </div>
         </div>
-    </header>
 
-    
-    <div class="searchform__holder  u-text-align--center">
-        <div class="searchform__wrapper">
-            <input id="searchform__input" class="searchform__input" title="Cautati" value="" type="text" maxlength="2048" aria-label="Cautati" />
+        <div class="actions__holder  u-text-align--center">
+            <input class="actions__btn" value="Cautare Google" aria-label="Cautare Google" type="button" />
+            <input class="actions__btn" value="Ma simt norocos" aria-label="Ma simt norocos" type="button" />
         </div>
+
+        <footer class="footer">
+            <div class="footer__holder">
+                <span class="location">Romania</span>
+            </div>
+            <div class="footer__holder">
+                <ul class="o-list  o-list--inline  footer-nav__list">
+                    <li class="footer-nav__item"> 
+                        <a class="footer-nav__link" href="/">Publicitate</a>
+                    </li>
+                    <li class="footer-nav__item"> 
+                        <a class="footer-nav__link" href="/">Companii</a>
+                    </li>
+                    <li class="footer-nav__item"> 
+                        <a class="footer-nav__link" href="/">Despre</a>
+                    </li>
+                    <li class="footer-nav__item"> 
+                            <a class="footer-nav__link" href="/">Cum Functioneaza Cautarea</a>
+                    </li>
+                
+                </ul>
+                <ul class="o-list  o-list--inline  footer-legal">
+                    <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="/">Confidentialitate</a>
+                    </li>
+                    <li class="footer-nav__item"> 
+                        <a class="footer-nav__link" href="/">Termeni</a>
+                    </li>
+                    <li class="footer-nav__item"> 
+                        <a class="footer-nav__link" href="/">Setari</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
-
-    <div class="actions__holder  u-text-align--center">
-        <input class="actions__btn" value="Cautare Google" aria-label="Cautare Google" type="button" />
-        <input class="actions__btn" value="Ma simt norocos" aria-label="Ma simt norocos" type="button" />
-    </div>
-
-    <footer class="footer">
-        <div class="footer-location">
-            <span>Romania</span>
-        </div>
-        <div class="footer-options">
-            <ul class="o-list  o-list--inline  footer-nav__list">
-                <li class="footer-nav__item"> 
-                    <a class="footer-nav__link" href="/">Publicitate</a>
-                </li>
-                <li class="footer-nav__item"> 
-                    <a class="footer-nav__link" href="/">Companii</a>
-                </li>
-                <li class="footer-nav__item"> 
-                    <a class="footer-nav__link" href="/">Despre</a>
-                </li>
-                <li class="footer-nav__item"> 
-                        <a class="footer-nav__link" href="/">Cum Functioneaza Cautarea</a>
-                </li>
-               
-            </ul>
-            <ul class="o-list  o-list--inline  footer-legal">
-                <li class="footer-legal__item">
-                        <a class="footer-legal__link" href="/">Confidentialitate</a>
-                </li>
-                <li class="footer-legal__item"> 
-                    <a class="footer-legal__link" href="/">Termeni</a>
-                </li>
-                <li class="footer-legal__item"> 
-                    <a class="footer-legal__link" href="/">Setari</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-</div>
+</body>
